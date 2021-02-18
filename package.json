@@ -1,0 +1,35 @@
+{
+  "name": "cypress-cucumber",
+  "version": "1.0.0",
+  "description": "End-to-End Test Framework with BDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "./cypress/support/step_definitions/"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "End-to-End",
+    "Automation",
+    "testing",
+    "BDD",
+    "cypress-cucumber"
+  ],
+  "author": "Tony",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "cypress": "^6.5.0",
+    "cypress-cucumber-preprocessor": "^4.0.1"
+  }
+}
